@@ -11,10 +11,15 @@ public static void pairDifference(int []arr,int target) {
 			}
 		}
 	}
+public static void add(int a,int b){
+int c =a+b;
+System.out.println(c);
+}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] arr = { 1, 5, 2, 4, 8 };
 		 int target=3;
 		 pairDifference(arr, target);
+                 add(12,34);
 	}
 }
